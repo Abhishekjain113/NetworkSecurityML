@@ -3,5 +3,3 @@ numpy
 mlflow
 python-dotenv
 certifi
-
--e .

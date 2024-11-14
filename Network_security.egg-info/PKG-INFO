@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Network-security
+Version: 0.0.1
+Author: jain abhishek
+Author-email: abhijain0410@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: mlflow
+Requires-Dist: python-dotenv
+Requires-Dist: certifi
