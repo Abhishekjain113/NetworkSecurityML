@@ -1,0 +1,6 @@
+[2024-11-18 19:40:25,694] 23 root - INFO - Logging setup is complete.
+[2024-11-18 19:40:25,702] 27 root - INFO - NetworkDataExtract object initialized successfully.
+[2024-11-18 19:40:25,702] 36 root - INFO - Reading CSV file from path: /home/jainabhi/ML/Network_security/network_data/phisingData.csv
+[2024-11-18 19:40:25,849] 41 root - INFO - CSV data converted to JSON with 11055 records.
+[2024-11-18 19:40:25,849] 52 root - INFO - Connecting to MongoDB database: NWS, collection: NetworkData
+[2024-11-18 19:40:44,337] 62 root - INFO - 11055 records inserted into MongoDB.

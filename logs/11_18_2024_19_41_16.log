@@ -1,0 +1,4 @@
+[2024-11-18 19:41:16,362] 23 root - INFO - Logging setup is complete.
+[2024-11-18 19:41:16,365] 13 root - INFO - Initiate the data ingestion
+[2024-11-18 19:41:16,365] 35 root - INFO - Connecting to MongoDB at None
+[2024-11-18 19:41:46,466] 48 root - ERROR - Failed to connect to MongoDB: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 673b4b04f969119076ae3188, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>

@@ -1,6 +1,5 @@
 from datetime import datetime
 from networkSecurity.constant import training_pipleine
-
 import os 
 import sys
 
@@ -21,13 +20,13 @@ class DataIngestionConfig:
             training_pipleine.DATA_INGESTION_DIR_NAME
         )
         self.feature_store_file_path: str = os.path.join(
-                self.data_ingestion_dir, training_pipleine.DATA_INGESTION_FEATURE_STORE_DIR, training_pipeline.FILE_NAME
+                self.data_ingestion_dir, training_pipleine.DATA_INGESTION_FEATURE_STORE_DIR, training_pipleine.FILE_NAME
             )
         self.training_file_path: str = os.path.join(
-                self.data_ingestion_dir, training_pipleine.DATA_INGESTION_INGESTED_DIR, training_pipeline.TRAIN_FILE_NAME
+                self.data_ingestion_dir, training_pipleine.DATA_INGESTION_INGESTED_DIR, training_pipleine.TRAIN_FILE_NAME
             )
         self.testing_file_path: str = os.path.join(
-                self.data_ingestion_dir, training_pipleine.DATA_INGESTION_INGESTED_DIR, training_pipeline.TEST_FILE_NAME
+                self.data_ingestion_dir, training_pipleine.DATA_INGESTION_INGESTED_DIR, training_pipleine.TEST_FILE_NAME
             )
         
         self.train_test_split_ration:float=training_pipleine.DATA_INGESTION_TRAIN_TEST_SPLIT_RATION
